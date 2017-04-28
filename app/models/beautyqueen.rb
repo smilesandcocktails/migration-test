@@ -1,0 +1,2 @@
+class Beautyqueen < ApplicationRecord
+end
