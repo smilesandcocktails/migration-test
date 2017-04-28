@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 20170428052744) do
 
   create_table "beautyqueens", force: :cascade do |t|
     t.string   "name"
+    t.string   "country"
     t.integer  "age"
     t.integer  "heightincm"
     t.datetime "created_at", null: false
