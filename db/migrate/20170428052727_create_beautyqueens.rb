@@ -2,6 +2,7 @@ class CreateBeautyqueens < ActiveRecord::Migration[5.0]
   def change
     create_table :beautyqueens do |t|
       t.string :name
+      t.string :country
       t.integer :age
       t.integer :heightincm
 
